@@ -67,4 +67,5 @@ Display variables for text labels:
 | `{seconds_short_text}` | Displays the abbreviated form of the Seconds Text Label 							| `s` 		|
 
 >> NOTE: Any time you are making alterations to a theme's files, you will want to duplicate the theme folder in the `user/themes/` directory, rename it, and set the new name as your active theme. This will ensure that you don't lose your customizations in the event that a theme is updated. Once you have tested the change thoroughly, you can delete or back up that folder elsewhere.
+
 >> NOTE²: Standard abbreviations do not change in plural.
