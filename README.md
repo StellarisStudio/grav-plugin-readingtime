@@ -30,7 +30,7 @@ You need to pass a Twig Filter 'readingtime' to display the reading time values.
 {{ page.content|readingtime({'minutes_label': 'Minuti', 'minute_label': 'Minuto', 'seconds_label': 'Secondi', 'second_label': 'Secondo'}) }}
 ```
 
-I used Italian translation for the labels, you can change with your language.
+I used Italian translation for the labels, you can change with your language. (Italian, English, French, Spanish, German and Czech are available by default)
 
 If you need you can change the format with this avariable variables (the code is default format):
 
@@ -59,9 +59,12 @@ Not available to edit but used in the format variable:
 
 Display variables for text labels:
 
-|     Variable     |                                   Description                                    |  Example  |
-| :--------------- | :------------------------------------------------------------------------------- | :-------- |
-| `{minutes_text}` | Displays the Minutes Text Label (Singular or Plural, Based on Number of Minutes) | `minute`  |
-| `{seconds_text}` | Displays the Seconds Text Label (Singular or Plural, Based on Number of Seconds) | `seconds` |
+|         Variable       |                                    Description                                   |  Example  |
+| :----------------------| :------------------------------------------------------------------------------- | :-------- |
+| `{minutes_text}`       | Displays the Minutes Text Label (Singular or Plural, Based on Number of Minutes) | `minute`  |
+| `{seconds_text}`       | Displays the Seconds Text Label (Singular or Plural, Based on Number of Seconds) | `seconds` |
+| `{minutes_short_text}` | Displays the abbreviated form of the Minutes Text Label 							| `min`  	|
+| `{seconds_short_text}` | Displays the abbreviated form of the Seconds Text Label 							| `s` 		|
 
 >> NOTE: Any time you are making alterations to a theme's files, you will want to duplicate the theme folder in the `user/themes/` directory, rename it, and set the new name as your active theme. This will ensure that you don't lose your customizations in the event that a theme is updated. Once you have tested the change thoroughly, you can delete or back up that folder elsewhere.
+>> NOTE²: Standard abbreviations do not change in plural.

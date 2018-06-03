@@ -2,33 +2,52 @@ en:
   PLUGIN_READINGTIME:
     SECOND: second
     SECONDS: seconds
+    SEC: s
     MINUTE: minute
     MINUTES: minutes
+    MIN: min
 
 cs:
   PLUGIN_READINGTIME:
     SECOND: sekunda
     SECONDS: sekundy
+    SEC: s
     MINUTE: minuta
     MINUTES: minuty
+    MIN: min
 
 es:
   PLUGIN_READINGTIME:
     SECOND: segundo
     SECONDS: segundos
+    SEC: s
     MINUTE: minuto
     MINUTES: minutos
+    MIN: min
 
 fr:
   PLUGIN_READINGTIME:
     SECOND: seconde
     SECONDS: secondes
+    SEC: s
     MINUTE: minute
     MINUTES: minutes
+    MIN: min
 
 it:
   PLUGIN_READINGTIME:
     SECOND: secondo
     SECONDS: secondi
+    SEC: s
     MINUTE: minuto
     MINUTES: minuti
+    MIN: min
+
+de:
+  PLUGIN_READINGTIME:
+    SECOND: Sekunde
+    SECONDS: Sekunden
+    SEC: s
+    MINUTE: Minute
+    MINUTES: Minuten
+    MIN: min
